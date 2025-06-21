@@ -9,25 +9,34 @@ body {
 
 header {
     text-align: center;
-    padding: 40px 20px;
+    padding: 10px 20px;
     background-color: #f4e3d7;
+    margin-top: 0;
 }
+
 
 header img {
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 0rem; /* reduce this from 1rem to 0.5rem or 0 */
 }
 
 header h1 {
     font-size: 2em;
     color: #444;
+    margin-top: 0.5rem; /* reduce top space if needed */
+    margin-bottom: 0.3rem;
 }
 
 header p {
     font-size: 1.2em;
     color: #666;
+    margin-top: 0; /* eliminate extra space */
 }
+
+
+
 
 nav {
     background-color: #e5d3b3;
@@ -75,4 +84,12 @@ button {
   
   button:hover {
     background-color: #a87954;  /* Slightly darker on hover */
+  }
+
+  .highlight {
+    color: #c19a6b;
+    font-weight: bold;
+    background-color: #f4e3d7;
+    padding: 2px 4px;
+    border-radius: 3px;
   }
